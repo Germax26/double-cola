@@ -22,6 +22,6 @@ nth n (Group size name:rest)
 
 main :: IO ()
 main = do
-    putStrLn $ "1 => " ++ nth 1 groups -- Sheldon
-    putStrLn $ "52 => " ++ nth 52 groups -- Penny
+    putStrLn $ "1     => " ++ nth 1 groups -- Sheldon
+    putStrLn $ "52    => " ++ nth 52 groups -- Penny
     putStrLn $ "10010 => " ++ nth 10010 groups -- Howard

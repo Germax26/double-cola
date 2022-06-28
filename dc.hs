@@ -1,8 +1,8 @@
 {-# LANGUAGE TupleSections #-}
 main :: IO ()
 main = do
-    putStrLn $ "1 => " ++ dc queue 1 -- Sheldon
-    putStrLn $ "52 => " ++ dc queue 52 -- Penny
+    putStrLn $ "1     => " ++ dc queue 1 -- Sheldon
+    putStrLn $ "52    => " ++ dc queue 52 -- Penny
     putStrLn $ "10010 => " ++ dc queue 10010 -- Howard
         where queue = ["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"]
 
